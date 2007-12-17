@@ -1,0 +1,234 @@
+homebank
+------------------------------------------
+HomeBank is free software. Use it to manage your personal accounts. It 
+is designed to easy to use. Analyse your finances in detail using 
+powerful filtering tools and graphs.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.12.2-1
+  glib2-2.14.4-1
+  gtk2-x11-2.12.2-1
+  libintl8-0.15-1
+  libofx4-0.9.0-1
+  pango-1.18.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  intltool-0.36.3-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://homebank.free.fr/
+
+Canonical download:
+  http://homebank.free.fr/public/
+
+-------------------------------------------
+
+Build instructions:
+  unpack homebank-3.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./homebank-3.6-X.cygport all
+
+This will create:
+  /usr/src/homebank-3.6-X-src.tar.bz2
+  /usr/src/homebank-3.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/homebank.sh
+  /usr/bin/homebank.exe
+  /usr/share/application-registry/homebank.applications
+  /usr/share/applications/homebank.desktop
+  /usr/share/doc/homebank-3.6/AUTHORS
+  /usr/share/doc/homebank-3.6/COPYING
+  /usr/share/doc/homebank-3.6/ChangeLog
+  /usr/share/doc/homebank-3.6/INSTALL
+  /usr/share/doc/homebank-3.6/NEWS
+  /usr/share/doc/homebank-3.6/README
+  /usr/share/homebank/help/02balance.html
+  /usr/share/homebank/help/02concepts.html
+  /usr/share/homebank/help/02intro.html
+  /usr/share/homebank/help/02minor.html
+  /usr/share/homebank/help/03account.html
+  /usr/share/homebank/help/03accountmenu.html
+  /usr/share/homebank/help/03carcost.html
+  /usr/share/homebank/help/03main.html
+  /usr/share/homebank/help/03mainmenu.html
+  /usr/share/homebank/help/03transactions.html
+  /usr/share/homebank/help/03validate.html
+  /usr/share/homebank/help/04acco.html
+  /usr/share/homebank/help/04arch.html
+  /usr/share/homebank/help/04bud1.html
+  /usr/share/homebank/help/04cate.html
+  /usr/share/homebank/help/04paye.html
+  /usr/share/homebank/help/04pref.html
+  /usr/share/homebank/help/04tran.html
+  /usr/share/homebank/help/04wall.html
+  /usr/share/homebank/help/05bud2.html
+  /usr/share/homebank/help/05cost.html
+  /usr/share/homebank/help/05over.html
+  /usr/share/homebank/help/05stat.html
+  /usr/share/homebank/help/06csvformat.html
+  /usr/share/homebank/help/99date.html
+  /usr/share/homebank/help/99filt.html
+  /usr/share/homebank/help/99mui.html
+  /usr/share/homebank/help/99patt.html
+  /usr/share/homebank/help/99sort.html
+  /usr/share/homebank/help/help.css
+  /usr/share/homebank/help/images/03account1.png
+  /usr/share/homebank/help/images/03main1.png
+  /usr/share/homebank/help/images/03main_added.png
+  /usr/share/homebank/help/images/03main_edited.png
+  /usr/share/homebank/help/images/03main_reminded.png
+  /usr/share/homebank/help/images/03main_validated.png
+  /usr/share/homebank/help/images/04account1.png
+  /usr/share/homebank/help/images/04archive1.png
+  /usr/share/homebank/help/images/04archive2.png
+  /usr/share/homebank/help/images/04budget1.png
+  /usr/share/homebank/help/images/04category1.png
+  /usr/share/homebank/help/images/04filter1.png
+  /usr/share/homebank/help/images/04payee1.png
+  /usr/share/homebank/help/images/04prefs1.png
+  /usr/share/homebank/help/images/04prefs2.png
+  /usr/share/homebank/help/images/04prefs3.png
+  /usr/share/homebank/help/images/04prefs4.png
+  /usr/share/homebank/help/images/04prefs5.png
+  /usr/share/homebank/help/images/04prefs6.png
+  /usr/share/homebank/help/images/04prefs7.png
+  /usr/share/homebank/help/images/04transaction1.png
+  /usr/share/homebank/help/images/04wallet1.png
+  /usr/share/homebank/help/images/05budget1.png
+  /usr/share/homebank/help/images/05budget2.png
+  /usr/share/homebank/help/images/05carcost1.png
+  /usr/share/homebank/help/images/05overdrawn1.png
+  /usr/share/homebank/help/images/05overdrawn2.png
+  /usr/share/homebank/help/images/05statistics1.png
+  /usr/share/homebank/help/images/05statistics2.png
+  /usr/share/homebank/help/images/05statistics3.png
+  /usr/share/homebank/help/images/1.png
+  /usr/share/homebank/help/images/10.png
+  /usr/share/homebank/help/images/11.png
+  /usr/share/homebank/help/images/12.png
+  /usr/share/homebank/help/images/13.png
+  /usr/share/homebank/help/images/14.png
+  /usr/share/homebank/help/images/15.png
+  /usr/share/homebank/help/images/2.png
+  /usr/share/homebank/help/images/3.png
+  /usr/share/homebank/help/images/4.png
+  /usr/share/homebank/help/images/5.png
+  /usr/share/homebank/help/images/6.png
+  /usr/share/homebank/help/images/7.png
+  /usr/share/homebank/help/images/8.png
+  /usr/share/homebank/help/images/9.png
+  /usr/share/homebank/help/images/bg_page.gif
+  /usr/share/homebank/help/images/home.gif
+  /usr/share/homebank/help/images/homebank_32.png
+  /usr/share/homebank/help/images/homebank_64.png
+  /usr/share/homebank/help/images/next.gif
+  /usr/share/homebank/help/images/nextdsbl.gif
+  /usr/share/homebank/help/images/prev.gif
+  /usr/share/homebank/help/images/prevdsbl.gif
+  /usr/share/homebank/help/images/shotback.png
+  /usr/share/homebank/help/index.html
+  /usr/share/homebank/help/main.html
+  /usr/share/homebank/help/navig.html
+  /usr/share/homebank/help/style.html
+  /usr/share/homebank/images/account.svg
+  /usr/share/homebank/images/archive.svg
+  /usr/share/homebank/images/banktransfert.svg
+  /usr/share/homebank/images/budget.svg
+  /usr/share/homebank/images/cash.svg
+  /usr/share/homebank/images/category.svg
+  /usr/share/homebank/images/cheque.svg
+  /usr/share/homebank/images/creditcard.svg
+  /usr/share/homebank/images/filter.svg
+  /usr/share/homebank/images/homebank.svg
+  /usr/share/homebank/images/legend.svg
+  /usr/share/homebank/images/lpi-bug.png
+  /usr/share/homebank/images/lpi-help.png
+  /usr/share/homebank/images/lpi-translate.png
+  /usr/share/homebank/images/lst_auto.svg
+  /usr/share/homebank/images/lst_edit.svg
+  /usr/share/homebank/images/lst_new.svg
+  /usr/share/homebank/images/lst_remind.svg
+  /usr/share/homebank/images/lst_vali.svg
+  /usr/share/homebank/images/lst_warning.svg
+  /usr/share/homebank/images/ope_add.svg
+  /usr/share/homebank/images/ope_delete.svg
+  /usr/share/homebank/images/ope_edit.svg
+  /usr/share/homebank/images/ope_herit.svg
+  /usr/share/homebank/images/ope_show.svg
+  /usr/share/homebank/images/ope_valid.svg
+  /usr/share/homebank/images/payee.svg
+  /usr/share/homebank/images/personaltransfert.svg
+  /usr/share/homebank/images/prf_columns.svg
+  /usr/share/homebank/images/prf_display.svg
+  /usr/share/homebank/images/prf_euro.svg
+  /usr/share/homebank/images/prf_general.svg
+  /usr/share/homebank/images/prf_help.svg
+  /usr/share/homebank/images/prf_interface.svg
+  /usr/share/homebank/images/prf_report.svg
+  /usr/share/homebank/images/rate.svg
+  /usr/share/homebank/images/refresh.svg
+  /usr/share/homebank/images/report_budget.svg
+  /usr/share/homebank/images/report_car.svg
+  /usr/share/homebank/images/report_overdrawn.svg
+  /usr/share/homebank/images/report_stats.svg
+  /usr/share/homebank/images/splash.png
+  /usr/share/homebank/images/view_bar.svg
+  /usr/share/homebank/images/view_line.svg
+  /usr/share/homebank/images/view_list.svg
+  /usr/share/homebank/images/view_pie.svg
+  /usr/share/icons/hicolor/16x16/apps/homebank.png
+  /usr/share/icons/hicolor/24x24/apps/homebank.png
+  /usr/share/icons/hicolor/32x32/apps/homebank.png
+  /usr/share/icons/hicolor/48x48/apps/homebank.png
+  /usr/share/icons/hicolor/scalable/apps/homebank.svg
+  /usr/share/locale/de/LC_MESSAGES/homebank.mo
+  /usr/share/locale/el/LC_MESSAGES/homebank.mo
+  /usr/share/locale/es/LC_MESSAGES/homebank.mo
+  /usr/share/locale/et/LC_MESSAGES/homebank.mo
+  /usr/share/locale/fr/LC_MESSAGES/homebank.mo
+  /usr/share/locale/gl/LC_MESSAGES/homebank.mo
+  /usr/share/locale/he/LC_MESSAGES/homebank.mo
+  /usr/share/locale/it/LC_MESSAGES/homebank.mo
+  /usr/share/locale/nb/LC_MESSAGES/homebank.mo
+  /usr/share/locale/nl/LC_MESSAGES/homebank.mo
+  /usr/share/locale/pl/LC_MESSAGES/homebank.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/homebank.mo
+  /usr/share/locale/ru/LC_MESSAGES/homebank.mo
+  /usr/share/locale/sl/LC_MESSAGES/homebank.mo
+  /usr/share/locale/sv/LC_MESSAGES/homebank.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/homebank.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/homebank.mo
+  /usr/share/mime-info/homebank.keys
+  /usr/share/mime-info/homebank.mime
+  /usr/share/mime/packages/homebank.xml
+  /usr/share/pixmaps/homebank.svg
+
+------------------
+
+Port Notes:
+
+----- version 3.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
