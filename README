@@ -36,15 +36,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack homebank-3.7-X-src.tar.bz2
+  unpack homebank-3.8-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./homebank-3.7-X.cygport all
+  cygport ./homebank-3.8-X.cygport all
 
 This will create:
-  /usr/src/homebank-3.7-X-src.tar.bz2
-  /usr/src/homebank-3.7-X.tar.bz2
+  /usr/src/homebank-3.8-X-src.tar.bz2
+  /usr/src/homebank-3.8-X.tar.bz2
 
 -------------------------------------------
 
@@ -54,12 +54,12 @@ Files included in the binary package:
   /usr/bin/homebank.exe
   /usr/share/application-registry/homebank.applications
   /usr/share/applications/homebank.desktop
-  /usr/share/doc/homebank-3.7/AUTHORS
-  /usr/share/doc/homebank-3.7/COPYING
-  /usr/share/doc/homebank-3.7/ChangeLog
-  /usr/share/doc/homebank-3.7/INSTALL
-  /usr/share/doc/homebank-3.7/NEWS
-  /usr/share/doc/homebank-3.7/README
+  /usr/share/doc/homebank-3.8/AUTHORS
+  /usr/share/doc/homebank-3.8/COPYING
+  /usr/share/doc/homebank-3.8/ChangeLog
+  /usr/share/doc/homebank-3.8/INSTALL
+  /usr/share/doc/homebank-3.8/NEWS
+  /usr/share/doc/homebank-3.8/README
   /usr/share/homebank/help/02balance.html
   /usr/share/homebank/help/02concepts.html
   /usr/share/homebank/help/02intro.html
@@ -225,7 +225,7 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 3.7-1 -----
+----- version 3.8-1 -----
 Version bump.
 
 ----- version 3.6-1 -----
