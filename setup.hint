@@ -1,5 +1,5 @@
 category: Math Gnome
-requires: cygwin glib2 gtk2-x11 libintl8 libofx4 pango
+requires: cygwin libcairo2 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libofx4 libpango1.0_0
 sdesc: "GTK+ personal accounting software"
 ldesc: "HomeBank is free software. Use it to manage your personal 
 accounts. It is designed to easy to use. Analyse your finances in detail 

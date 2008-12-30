@@ -4,4 +4,4 @@ DESCRIPTION="GTK+ personal accounting program"
 HOMEPAGE="http://homebank.free.fr/"
 SRC_URI="http://homebank.free.fr/public/${P}.tar.gz"
 
-MAKEOPTS+=" GMSGFMT=/usr/bin/msgfmt"
+#MAKEOPTS+=" GMSGFMT=/usr/bin/msgfmt"
