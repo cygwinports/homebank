@@ -5,26 +5,27 @@ is designed to easy to use. Analyse your finances in detail using
 powerful filtering tools and graphs.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libcairo2-1.8.6-1
-  libgdk_pixbuf2.0_0-2.14.7-1
-  libglib2.0_0-2.18.3-1
-  libgtk2.0_0-2.14.7-1
-  libintl8-0.17-2
-  libofx4-0.9.0-1
-  libpango1.0_0-1.22.4-1
+  cygwin-1.7.0-44
+  libcairo2-1.8.6-10
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.0-1
+  libglib2.0_0-2.20.0-1
+  libgtk2.0_0-2.16.0-1
+  libintl8-0.17-10
+  libofx4-0.9.1-1
+  libpango1.0_0-1.24.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
+  autoconf2.5-2.63-10
   automake1.10-1.10.1-2
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  intltool-0.40.5-1
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  intltool-0.40.6-1
+  libtool-2.2.7a-11
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -55,12 +56,11 @@ Files included in the binary package:
   /usr/bin/homebank.exe
   /usr/share/application-registry/homebank.applications
   /usr/share/applications/homebank.desktop
-  /usr/share/doc/homebank-4.0.2/AUTHORS
-  /usr/share/doc/homebank-4.0.2/COPYING
-  /usr/share/doc/homebank-4.0.2/ChangeLog
-  /usr/share/doc/homebank-4.0.2/INSTALL
-  /usr/share/doc/homebank-4.0.2/NEWS
-  /usr/share/doc/homebank-4.0.2/README
+  /usr/share/doc/homebank/AUTHORS
+  /usr/share/doc/homebank/COPYING
+  /usr/share/doc/homebank/ChangeLog
+  /usr/share/doc/homebank/NEWS
+  /usr/share/doc/homebank/README
   /usr/share/homebank/help/00new4.0.html
   /usr/share/homebank/help/02balance.html
   /usr/share/homebank/help/02concepts.html
@@ -265,17 +265,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 4.0.2-1 -----
-Version bump.
-
------ version 4.0.1-1 -----
-Version bump.
-
------ version 3.8-1 -----
-Version bump.
-
------ version 3.6-1 -----
-Initial release for Cygwin.
+----- version 4.0.2-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
