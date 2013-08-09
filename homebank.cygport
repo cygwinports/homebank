@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="homebank"
-VERSION=4.5
+VERSION=4.5.1
 RELEASE=1
 CATEGORY="Office"
 SUMMARY="GTK+ personal accounting software"
@@ -9,4 +9,4 @@ DESCRIPTION="HomeBank is free software. Use it to manage your personal accounts.
 It is designed to easy to use. Analyse your finances in detail using powerful
 filtering tools and graphs."
 HOMEPAGE="http://homebank.free.fr/"
-SRC_URI="http://homebank.free.fr/public/${P}.tar.gz"
+SRC_URI="http://homebank.free.fr/public/${NAME}-${VERSION}.tar.gz"
