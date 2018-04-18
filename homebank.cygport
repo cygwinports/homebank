@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="homebank"
-VERSION=5.0.9
+VERSION=5.1.8
 RELEASE=1
 CATEGORY="Office"
 SUMMARY="GTK+ personal accounting software"
